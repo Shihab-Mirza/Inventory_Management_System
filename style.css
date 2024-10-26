@@ -1,0 +1,108 @@
+div.content {
+    border: rgb(255, 68, 115) solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+div.content.inactive {
+	display: none;
+}
+
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc a {
+    background: rgb(246, 240, 240) url(tabs.gif);
+    color: rgb(225, 76, 78);
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+ol#toc a:hover {
+    background-color: rgb(255, 51, 51);
+    background-position: 0 -120px;
+}
+
+ol#toc a:hover span {
+    background-position: 100% -120px;
+}
+
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ol#toc li a.active {
+    background-color: rgb(255, 68, 68);
+    background-position: 0 -60px;
+    color: hsl(0, 89%, 32%);
+    font-weight: bold;
+}
+
+ol#toc li a.active span {
+    background-position: 100% -60px;
+}
+
+ol#toc span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
+
+
+.full-index
+{ font-family: san-sarif;
+height: 730px;
+border-style: outset;
+background-color : #9bc400;
+}
+
+.header1
+{ padding: 0px;
+color : black;
+border-style: outset;
+height: 100px;
+background-color: #3CB371;
+text-align: center;
+
+
+}
+
+
+
+fieldset {
+margin: auto;
+width: 350px;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+border-style: outset;
+background-color: #3CB371; }
+
+
+
+
+.login-button
+{  width: 70px;
+background-color: white;
+border-style:inset;
+}
+
+
+legend { margin: auto;
+background-color: #efefef;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 10px 20px;
+text-align: left;
+}
+
